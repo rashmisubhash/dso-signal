@@ -9,7 +9,7 @@
 
 A cashflow wedge for AR teams — deterministic forecasting, confidence-scored collections triage. Built in a weekend for Monk.
 
-**Live demo:** [dso-signal.vercel.app](https://dso-signal.vercel.app) · **Code:** you're here
+**Live demo:** [https://dso-signal-7mpavgxy1-rashmisubhashs-projects.vercel.app](https://dso-signal-7mpavgxy1-rashmisubhashs-projects.vercel.app)
 
 ## What this is
 
