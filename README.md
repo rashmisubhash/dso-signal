@@ -1,7 +1,5 @@
 # DSO Signal
 
-
-
 <p align="center"> 
   <img src="docs/architecture.png" alt="The model was right about the pattern. It was wrong about its job." width="820"/>
   <br/>An upstream triage layer for AR automation. 
