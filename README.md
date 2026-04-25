@@ -5,7 +5,9 @@
   <br/>An upstream triage layer for AR automation. 
 </p>
 
-A cashflow wedge for AR teams — deterministic forecasting, confidence-scored collections triage. Built in a weekend for Monk.
+A cashflow wedge for AR teams — deterministic forecasting, confidence-scored collections triage. Built as a fast prototype to explore this wedge in practice.
+
+The goal: improve forecast accuracy and reduce wasted collection effort by triaging intent before automation.
 
 **Live demo:** [https://dso-signal-7mpavgxy1-rashmisubhashs-projects.vercel.app](https://dso-signal-7mpavgxy1-rashmisubhashs-projects.vercel.app)
 
@@ -13,7 +15,7 @@ A cashflow wedge for AR teams — deterministic forecasting, confidence-scored c
 
 DSO Signal ingests an AR aging CSV and returns two things a finance lead uses on Monday morning: a confidence-banded 30/60/90-day cashflow forecast, and a per-customer collections queue with archetype, confidence, and a drafted first-touch email. Archetypes are `reliable`, `gentle_nudge`, `needs_escalation`, `at_risk`, `insufficient_data`. For non-reliable customers, Claude drafts warm, specific outreach — never templated dunning. Any judgment below 0.7 confidence is automatically flagged for human review.
 
-I built this as a wedge upstream of Monk's current product. Monk's own writing makes the case plainly: _Billed vs. Collected Revenue_ argues billing and collecting are two different problems, and _Overdue Invoices Are Not Always a Payment Problem_ treats chronic lateness as behavioral, not financial. Monk's platform solves the back half — AR automation once a receivable is in motion.
+I built this as a wedge upstream of Monk's current product. Monk's own writing makes the case plainly: _Billed vs. Collected Revenue_ argues billing and collecting are two different problems, and _Overdue Invoices Are Not Always a Payment Problem_ treats chronic lateness as behavioral, not financial. Monk’s platform is strongest once a receivable is already in motion — AR automation once a receivable is in motion.
 
 DSO Signal solves the front half: it gives a finance lead a reason to log in before they have a collections problem, then hands enriched, triaged accounts to Monk. The pitch inside the account becomes forecasting, not invoicing.
 
