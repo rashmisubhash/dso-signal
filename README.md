@@ -9,7 +9,7 @@ A cashflow wedge for AR teams — deterministic forecasting, confidence-scored c
 
 The goal: improve forecast accuracy and reduce wasted collection effort by triaging intent before automation.
 
-**Live demo:** [https://dso-signal-7mpavgxy1-rashmisubhashs-projects.vercel.app](https://dso-signal-7mpavgxy1-rashmisubhashs-projects.vercel.app)
+**Live demo:** [https://dso-signal-git-main-rashmisubhashs-projects.vercel.app/](https://dso-signal-git-main-rashmisubhashs-projects.vercel.app/)
 
 ## What this is
 
